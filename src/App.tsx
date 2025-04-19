@@ -58,7 +58,7 @@ const App = () => {
 
       </div>
       <div
-        className={`absolute inline-flex justify-center items-center w-0 h-0  transition-all duration-1000 ease-in-out ${getItemsClassName('fly')}`}
+        className={`absolute z-20 pointer-events-none inline-flex justify-center items-center w-0 h-0  transition-all duration-1000 ease-in-out ${getItemsClassName('fly')}`}
         style={{ left: flyPosition.x, top: flyPosition.y }}
       >
         <div
